@@ -1,6 +1,5 @@
 def check(lst):
     size=len(lst)
-    size=size-1
     i=0
     while(i!=(size-1)):
         if(lst[i]<lst[i+1]):

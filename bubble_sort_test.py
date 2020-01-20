@@ -25,15 +25,15 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(result3, expected3)
 
 
-    def test_list(self):
+    def test_check(self):
         # stub
         stub1 = [2,5,8,1]
-        stub2 = [0,8,3,4,5]
+        stub2 = [1,2,3,4,]
 
 
         # assume
-        expected1 = True
-        expected2 = False
+        expected1 = False
+        expected2 = True
 
 
         # action
