@@ -2,12 +2,8 @@ import unittest
 from bubble_sort import bubblesort
 from bubble_sort import check
 class MyTestCase(unittest.TestCase):
-    def short_list(lst):
-        for i in lst:
-            if lst[i]>lst[i+1]:
-                return False
-        else: return True
-    def test_list(self):
+
+    def test_sort(self):
         # stub
         stub1 = [3,6,9,1]
         stub2 = [0,7,2,3,4]
@@ -29,7 +25,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(result3, expected3)
 
 
-    def short_list(self):
+    def test_list(self):
         # stub
         stub1 = [2,5,8,1]
         stub2 = [0,8,3,4,5]
